@@ -1,8 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aj" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/trufflepig,
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/outdoors/rtfield)
 "aH" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/dirt/road,
@@ -24,9 +20,9 @@
 /area/rogue/indoors)
 "aY" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
+	name = "Butcher's House";
 	lockid = "butcher";
-	name = "Butcher's House"
+	locked = 1
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
@@ -49,16 +45,16 @@
 /area/rogue/indoors)
 "cb" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/roguekey/farmer,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors)
 "ce" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/structure/fluff/millstone,
 /turf/open/floor/rogue/ruinedwood{
@@ -107,8 +103,8 @@
 /area/rogue/outdoors/woods)
 "ds" = (
 /obj/structure/fluff/traveltile{
-	aportalgoesto = "townwest";
-	aportalid = "forest"
+	aportalid = "forest";
+	aportalgoesto = "townwest"
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/rtfield)
@@ -134,8 +130,8 @@
 /area/rogue/outdoors/woods)
 "dT" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors)
@@ -185,8 +181,8 @@
 /area/rogue/outdoors/rtfield)
 "gq" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/cooking/pan,
 /obj/item/reagent_containers/powder/flour,
@@ -199,16 +195,15 @@
 /area/rogue/indoors)
 "he" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
-/obj/item/kitchen/rollingpin,
 /turf/open/floor/rogue/tile/checker,
 /area/rogue/indoors)
 "hn" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
 	lockid = "elder";
+	locked = 1;
 	name = "Armory"
 	},
 /turf/open/floor/rogue/ruinedwood/chevron,
@@ -280,8 +275,8 @@
 /area/rogue/outdoors/rtfield)
 "jz" = (
 /turf/open/floor/rogue/rooftop{
-	dir = 4;
-	icon_state = "roof"
+	icon_state = "roof";
+	dir = 4
 	},
 /area/rogue/outdoors/town/roofs)
 "jD" = (
@@ -290,9 +285,9 @@
 /area/rogue/outdoors/rtfield)
 "jK" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
+	name = "Farmer's House";
 	lockid = "farm";
-	name = "Farmer's House"
+	locked = 1
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
@@ -325,8 +320,8 @@
 /area/rogue/indoors)
 "kB" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/cooking/pan,
 /turf/open/floor/rogue/cobble,
@@ -357,8 +352,8 @@
 /area/rogue/outdoors/rtfield)
 "kO" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /turf/open/floor/rogue/ruinedwood{
 	icon_state = "horzw"
@@ -426,12 +421,6 @@
 	},
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors)
-"mz" = (
-/obj/structure/closet/crate/roguecloset/wicker,
-/turf/open/floor/rogue/ruinedwood{
-	icon_state = "horzw"
-	},
-/area/rogue/indoors)
 "mB" = (
 /obj/structure/fluff/walldeco/wantedposter/l{
 	pixel_x = 0;
@@ -446,12 +435,12 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/outdoors/rtfield)
 "mY" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/roguekey/elder,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
 "no" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
@@ -463,8 +452,8 @@
 /area/rogue/indoors)
 "nZ" = (
 /obj/structure/fluff/traveltile{
-	aportalgoesto = "townwest";
-	aportalid = "forest"
+	aportalid = "forest";
+	aportalgoesto = "townwest"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
@@ -537,8 +526,8 @@
 /area/rogue/indoors)
 "qB" = (
 /obj/structure/fluff/traveltile/bandit{
-	aportalgoesto = "banditin";
-	aportalid = "banditexit"
+	aportalid = "banditexit";
+	aportalgoesto = "banditin"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
@@ -553,7 +542,7 @@
 	},
 /area/rogue/indoors)
 "qV" = (
-/obj/structure/closet/crate/chest/neu,
+/obj/structure/closet/crate/chest,
 /obj/item/roguekey/elder,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
@@ -574,9 +563,7 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/outdoors/rtfield)
 "rR" = (
-/obj/structure/chair/wood/rogue{
-	dir = 8
-	},
+/obj/structure/bed/rogue,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
 "se" = (
@@ -643,9 +630,11 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors)
 "tO" = (
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 12
+/obj/structure/table/wood{
+	icon_state = "tablewood1";
+	dir = 1
 	},
+/obj/item/candle/yellow,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
 "uq" = (
@@ -690,11 +679,7 @@
 	},
 /area/rogue/outdoors/woods)
 "wo" = (
-/obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
-	},
-/obj/item/candle/yellow,
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
 "wv" = (
@@ -713,7 +698,9 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
 "wJ" = (
-/obj/structure/bed/rogue,
+/obj/structure/chair/wood/rogue{
+	dir = 8
+	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
 "wM" = (
@@ -737,22 +724,22 @@
 /area/rogue/outdoors/woods)
 "xs" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
 "xw" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
 "xJ" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/reagent_containers/glass/cup/steel,
 /turf/open/floor/rogue/tile,
@@ -792,8 +779,8 @@
 /area/rogue/outdoors/rtfield)
 "yK" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/candle/yellow,
 /turf/open/floor/rogue/ruinedwood,
@@ -810,9 +797,9 @@
 /area/rogue/outdoors/woods)
 "zq" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
+	name = "Elder's House";
 	lockid = "elder";
-	name = "Elder's House"
+	locked = 1
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
@@ -836,7 +823,7 @@
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/woods)
 "At" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/powder/flour/salt,
 /obj/item/reagent_containers/powder/flour/salt,
 /obj/item/reagent_containers/food/snacks/egg,
@@ -873,7 +860,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/woods)
 "Bi" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/rogue/crackerscooked,
 /obj/item/reagent_containers/food/snacks/rogue/crackerscooked,
 /turf/open/floor/rogue/ruinedwood,
@@ -926,8 +913,8 @@
 /area/rogue/indoors)
 "Df" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/clothing/mask/cigarette/pipe/westman,
 /obj/item/needle/thorn,
@@ -953,7 +940,8 @@
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/woods)
 "DV" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
+/obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef,
 /obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef,
 /obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef,
 /obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef,
@@ -1076,11 +1064,6 @@
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
-"HM" = (
-/obj/structure/closet/crate/roguecloset,
-/obj/item/reagent_containers/food/snacks/rogue/truffles,
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors)
 "HV" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/sickle,
@@ -1124,9 +1107,9 @@
 /area/rogue/indoors)
 "IN" = (
 /obj/structure/mineral_door/bars{
-	locked = 1;
+	name = "Jail Cell";
 	lockid = "elder";
-	name = "Jail Cell"
+	locked = 1
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
@@ -1138,8 +1121,8 @@
 /area/rogue/indoors)
 "IQ" = (
 /obj/structure/mineral_door/wood/deadbolt{
-	dir = 4;
-	name = "Stables"
+	name = "Stables";
+	dir = 4
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
@@ -1149,8 +1132,8 @@
 /area/rogue/outdoors/woods)
 "Jf" = (
 /obj/structure/roguemachine/scomm{
-	pixel_x = -32;
-	pixel_y = 0
+	pixel_y = 0;
+	pixel_x = -32
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/rtfield)
@@ -1179,8 +1162,8 @@
 /area/rogue/outdoors/woods)
 "JN" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/reagent_containers/glass/cup/wooden,
 /turf/open/floor/rogue/tile,
@@ -1202,7 +1185,7 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/rtfield)
 "Ki" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/ruinedwood{
 	icon_state = "horzw"
 	},
@@ -1309,9 +1292,7 @@
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/woods)
 "Oo" = (
-/obj/structure/closet/crate/roguecloset{
-	pixel_y = 4
-	},
+/obj/structure/closet/crate/roguecloset,
 /obj/item/storage/roguebag,
 /turf/open/floor/rogue/woodturned,
 /area/rogue/indoors)
@@ -1341,7 +1322,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
 "OP" = (
-/obj/structure/rack/rogue,
+/obj/structure/closet/crate/roguecloset,
 /obj/item/storage/roguebag,
 /obj/item/storage/roguebag,
 /turf/open/floor/rogue/ruinedwood{
@@ -1349,7 +1330,7 @@
 	},
 /area/rogue/indoors)
 "OQ" = (
-/obj/structure/closet/crate/roguecloset/wicker,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/grown/oat,
 /obj/item/reagent_containers/food/snacks/grown/oat,
 /turf/open/floor/rogue/ruinedwood,
@@ -1392,7 +1373,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "Qi" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/rogue/meat/poultry,
 /obj/item/reagent_containers/food/snacks/rogue/meat/poultry,
 /obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet,
@@ -1428,8 +1409,8 @@
 /area/rogue/outdoors/woods)
 "Rs" = (
 /obj/structure/table/wood{
-	dir = 1;
-	icon_state = "tablewood1"
+	icon_state = "tablewood1";
+	dir = 1
 	},
 /obj/item/paper/scroll,
 /obj/item/natural/feather,
@@ -1466,7 +1447,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
 "Tk" = (
-/obj/structure/closet/crate/roguecloset/wicker,
+/obj/structure/closet/crate/chest,
 /obj/item/seeds/wheat,
 /obj/item/seeds/wheat,
 /obj/item/seeds/wheat,
@@ -1492,7 +1473,7 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/rtfield)
 "TS" = (
-/obj/structure/closet/crate/roguecloset/wicker,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/grown/wheat,
 /obj/item/reagent_containers/food/snacks/grown/wheat,
 /obj/item/reagent_containers/food/snacks/grown/wheat,
@@ -1515,8 +1496,8 @@
 /area/rogue/indoors)
 "Us" = (
 /obj/structure/fluff/traveltile/bandit{
-	aportalgoesto = "banditin";
-	aportalid = "banditexit"
+	aportalid = "banditexit";
+	aportalgoesto = "banditin"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
@@ -1527,7 +1508,7 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/rtfield)
 "UT" = (
-/obj/structure/closet/crate/roguecloset/wicker,
+/obj/structure/closet/crate/chest,
 /obj/item/seeds/wheat/oat,
 /obj/item/seeds/wheat/oat,
 /obj/item/seeds/pipeweed,
@@ -1560,7 +1541,7 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors)
 "Vw" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors)
 "VJ" = (
@@ -1609,8 +1590,8 @@
 /area/rogue/outdoors/rtfield)
 "Xf" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
 	lockid = "elder";
+	locked = 1;
 	name = "Elder's Room"
 	},
 /turf/open/floor/rogue/ruinedwood,
@@ -1668,7 +1649,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
 "Yq" = (
-/obj/structure/closet/crate/roguecloset/wicker,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/powder/flour/salt,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
@@ -19200,7 +19181,7 @@ rm
 rm
 Kr
 Io
-HM
+oQ
 aV
 aV
 iq
@@ -20146,7 +20127,7 @@ uq
 yt
 wv
 TP
-aj
+rm
 Kr
 Kr
 Kr
@@ -21855,7 +21836,7 @@ Kr
 TP
 Kr
 wv
-mz
+Ki
 dW
 dW
 vC

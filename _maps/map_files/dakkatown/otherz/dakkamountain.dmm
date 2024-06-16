@@ -8,8 +8,8 @@
 /area/rogue/outdoors/river)
 "aH" = (
 /obj/structure/fluff/traveltile{
-	aportalgoesto = "townnorth";
-	aportalid = "mountainroad"
+	aportalid = "mountainroad";
+	aportalgoesto = "townnorth"
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/mountains)
@@ -27,7 +27,7 @@
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
 "cu" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/trash/applecore,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
@@ -52,8 +52,8 @@
 /area/rogue/indoors)
 "kD" = (
 /obj/structure/fluff/traveltile{
-	aportalgoesto = "sewernorthwest";
-	aportalid = "mountainriverwest"
+	aportalid = "mountainriverwest";
+	aportalgoesto = "sewernorthwest"
 	},
 /turf/open/water/river,
 /area/rogue/outdoors/river)
@@ -78,7 +78,7 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/mountains)
 "nH" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/powder/flour/salt,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
@@ -100,11 +100,11 @@
 	},
 /area/rogue/outdoors/river)
 "rv" = (
-/obj/structure/closet/crate/chest/neu,
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
 "tK" = (
-/obj/structure/closet/crate/chest/neu,
+/obj/structure/closet/crate/chest,
 /obj/item/roguegem/violet,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
@@ -136,7 +136,7 @@
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
 "BG" = (
-/obj/structure/closet/crate/chest/neu,
+/obj/structure/closet/crate/chest,
 /obj/item/roguegem/yellow,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
@@ -159,7 +159,7 @@
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/mountains)
 "DL" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
 "DN" = (
@@ -186,12 +186,6 @@
 "GN" = (
 /obj/structure/roguewindow,
 /turf/open/floor/rogue/wood,
-/area/rogue/indoors)
-"GV" = (
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
-	},
-/turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
 "Hs" = (
 /obj/machinery/anvil,
@@ -221,13 +215,13 @@
 /area/rogue/outdoors/mountains/decap)
 "JN" = (
 /obj/structure/fluff/traveltile{
-	aportalgoesto = "townnorth";
-	aportalid = "mountainroad"
+	aportalid = "mountainroad";
+	aportalgoesto = "townnorth"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/mountains)
 "Kc" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
+/obj/structure/closet/crate/chest,
 /obj/item/rogueore/coal,
 /obj/item/rogueore/coal,
 /turf/open/floor/rogue/blocks/stonered,
@@ -269,10 +263,6 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/mountains)
-"SI" = (
-/obj/structure/closet/crate/roguecloset/old_crate,
-/turf/open/floor/rogue/blocks/stonered,
-/area/rogue/indoors)
 "SY" = (
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue/indoors)
@@ -19402,7 +19392,7 @@ Ir
 SY
 VV
 Kc
-SI
+rv
 SY
 Ir
 SY
@@ -34944,9 +34934,9 @@ bk
 bk
 bk
 lQ
-GV
-Up
 Jf
+Up
+DL
 lQ
 Ws
 xX
