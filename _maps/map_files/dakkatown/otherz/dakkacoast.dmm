@@ -38,8 +38,8 @@
 /area/rogue/outdoors/beach/boat)
 "dI" = (
 /obj/structure/fluff/traveltile{
-	aportalid = "coast";
-	aportalgoesto = "townsouth"
+	aportalgoesto = "townsouth";
+	aportalid = "coast"
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/beach)
@@ -91,20 +91,14 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/beach)
 "ix" = (
-/obj/structure/closet/crate/chest/gold{
-	lockid = "guild";
-	locked = 1
-	},
+/obj/structure/closet/crate/chest/neu,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguegem,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/outdoors/beach/boat/captain)
 "kt" = (
-/obj/structure/closet/crate/chest/gold{
-	lockid = "guild";
-	locked = 1
-	},
+/obj/structure/closet/crate/chest/neu,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguegem/blue,
@@ -183,10 +177,7 @@
 /turf/open/floor/rogue/woodturned/nosmooth,
 /area/rogue/outdoors/beach)
 "rD" = (
-/obj/structure/closet/crate/chest/gold{
-	lockid = "guild";
-	locked = 1
-	},
+/obj/structure/closet/crate/chest/neu,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguegem/green,
@@ -205,10 +196,7 @@
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue/outdoors/beach)
 "uz" = (
-/obj/structure/closet/crate/chest/gold{
-	lockid = "guild";
-	locked = 1
-	},
+/obj/structure/closet/crate/chest/neu,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguegem/violet,
@@ -244,8 +232,8 @@
 "wN" = (
 /obj/structure/mineral_door/wood/deadbolt{
 	dir = 1;
-	name = "Abandoned Hut";
-	locked = 1
+	locked = 1;
+	name = "Abandoned Hut"
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/beach)
@@ -274,7 +262,8 @@
 /area/rogue/outdoors/beach/boat)
 "xU" = (
 /obj/structure/closet/crate/roguecloset/lord{
-	lockid = "guild"
+	lockid = "guild";
+	pixel_y = 4
 	},
 /obj/item/clothing/suit/pirate,
 /obj/item/clothing/head/pirate,
@@ -386,7 +375,8 @@
 /area/rogue/outdoors/beach/boat)
 "Hy" = (
 /obj/structure/closet/crate/roguecloset/lord{
-	lockid = "guild"
+	lockid = "guild";
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/glass/bottle/rogue/wine,
 /obj/item/reagent_containers/glass/bottle/rogue/wine,
@@ -412,16 +402,16 @@
 /area/rogue/outdoors/beach/boat/captain)
 "IJ" = (
 /obj/structure/mineral_door/wood/window{
+	desc = "This is a deceivingly strong door, just what did they make this thing with?";
+	keylock = 0;
 	locked = 1;
 	max_integrity = 10000;
-	name = "Guild Captain's Quarters";
-	keylock = 0;
-	desc = "This is a deceivingly strong door, just what did they make this thing with?"
+	name = "Guild Captain's Quarters"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/outdoors/beach/boat/captain)
 "IK" = (
-/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/structure/closet/crate/roguecloset/wicker,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/beach/boat)
 "Jc" = (
@@ -462,9 +452,7 @@
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/caves)
 "KP" = (
-/obj/structure/closet/crate/chest/lostandfound{
-	name = "Lost Items"
-	},
+/obj/structure/closet/crate/roguecloset/old_crate,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/beach/boat)
 "KT" = (
@@ -478,8 +466,8 @@
 /area/rogue/outdoors/beach/boat/captain)
 "Lr" = (
 /obj/structure/fluff/traveltile{
-	aportalid = "coast";
-	aportalgoesto = "townsouth"
+	aportalgoesto = "townsouth";
+	aportalid = "coast"
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/beach)
@@ -494,10 +482,7 @@
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/beach)
 "Nr" = (
-/obj/structure/closet/crate/chest/gold{
-	lockid = "guild";
-	locked = 1
-	},
+/obj/structure/closet/crate/chest/neu,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguecoin/gold/pile,
 /obj/item/roguegem/yellow,
@@ -3376,7 +3361,7 @@ Tz
 Tz
 Tz
 Tz
-IK
+KP
 El
 El
 rP
@@ -3423,7 +3408,7 @@ Tz
 Tz
 Tz
 Gn
-IK
+KP
 El
 El
 rP
@@ -3463,7 +3448,7 @@ rP
 El
 El
 El
-IK
+KP
 Gn
 Tz
 Tz
@@ -3510,13 +3495,13 @@ rP
 rP
 El
 El
-IK
+KP
 KP
 Tz
 Tz
 Tz
 KP
-IK
+KP
 El
 El
 rP

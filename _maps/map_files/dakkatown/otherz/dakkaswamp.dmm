@@ -17,7 +17,7 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/bog)
 "cQ" = (
-/obj/structure/closet/crate/chest,
+/obj/structure/closet/crate/roguecloset/old_crate,
 /obj/item/cooking/pan,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/bog)
@@ -40,8 +40,8 @@
 /area/rogue/outdoors/bog)
 "ff" = (
 /obj/structure/fluff/traveltile{
-	aportalid = "swamproad";
-	aportalgoesto = "towneast"
+	aportalgoesto = "towneast";
+	aportalid = "swamproad"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/bog)
@@ -90,7 +90,7 @@
 /turf/open/water/swamp/deep,
 /area/rogue/outdoors/bog)
 "nL" = (
-/obj/structure/closet/crate/chest,
+/obj/structure/closet/crate/roguecloset/wicker,
 /obj/item/reagent_containers/glass/bottle/rogue/wine,
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/bog)
@@ -182,8 +182,8 @@
 /area/rogue/outdoors/bog)
 "Ba" = (
 /obj/structure/fluff/traveltile{
-	aportalid = "swampriver";
-	aportalgoesto = "sewereast"
+	aportalgoesto = "sewereast";
+	aportalid = "swampriver"
 	},
 /turf/open/water/river{
 	dir = 4
@@ -209,8 +209,8 @@
 /area/rogue/outdoors/bog)
 "Gg" = (
 /obj/structure/fluff/traveltile{
-	aportalid = "swamproad";
-	aportalgoesto = "towneast"
+	aportalgoesto = "towneast";
+	aportalid = "swamproad"
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/bog)
