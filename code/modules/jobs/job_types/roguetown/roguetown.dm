@@ -52,11 +52,11 @@
 				if(H.dna.species.name in list("Elf"))
 					H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 		if(!ourpatron || !(ourpatron.type in allowed_patrons))
-//			var/list/datum/patron/possiblegods = list()   // not actually used any more and just gives annoying error message? Lets silence it and see what happens.
-//				if(!(god in allowed_patrons))
-//					continue
-//				possiblegods |= god
-			H.patron = GLOB.patronlist[default_patron]  // || pick(possiblegods
+			var/list/datum/patron/possiblegods = list()
+				if(!(god in allowed_patrons))
+					continue
+				possiblegods |= god
+			H.patron = GLOB.patronlist[default_patron] || pick(possiblegods)
 			to_chat(H, "<span class='warning'>[ourpatron] had not endorsed my practices in my younger years. I've since grown acustomed to [H.patron].")
 
 	H.underwear_color = null
