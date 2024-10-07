@@ -300,9 +300,9 @@
 			if(loc == user)
 				user.adjust_fire_stacks(5)
 				user.IgniteMob()
-		return
-	else
-		. = ..()
+	return ..()
+
+
 
 /*----------\
 | Rare hats |	- Not craftable but importable usually
